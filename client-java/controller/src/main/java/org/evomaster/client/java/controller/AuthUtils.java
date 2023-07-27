@@ -10,7 +10,7 @@ import java.util.Objects;
 
 public class AuthUtils {
 
-
+    // encoding base 64
     public static String encode64(String value){
 
         Objects.requireNonNull(value);
